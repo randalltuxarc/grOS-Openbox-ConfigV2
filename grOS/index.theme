@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=grOS
+Comment=A flat theme for grombyangOS
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=grOS
+MetacityTheme=Numix-Daily
+IconTheme=Numix-Circle
+CursorTheme=DMZ-White
+ButtonLayout=:minimize,maximize,close

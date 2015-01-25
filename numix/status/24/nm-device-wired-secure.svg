@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3745"
+   height="24"
+   width="24"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="nm-device-wired.svg">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="709"
+     id="namedview6"
+     showgrid="true"
+     inkscape:zoom="13.906434"
+     inkscape:cx="3.1732741"
+     inkscape:cy="10.765504"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3745">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2987" />
+  </sodipodi:namedview>
+  <path
+     style="opacity:0.8;fill:#000000;fill-opacity:1;stroke:none"
+     d="M 6 7 L 6 15 L 8 15 L 8 17 L 10 17 L 10 18 L 14 18 L 14 17 L 14 15 L 15 15 L 15 13 L 18 13 L 18 7 L 6 7 z M 8 8 L 16 8 L 16 10 L 8 10 L 8 8 z "
+     id="path2989" />
+  <path
+     style="opacity:0.80000000000000004;fill:#000000;fill-opacity:1;stroke:none"
+     d="M 4 4 L 4 20 L 14 20 L 14 19 L 5 19 L 5 5 L 19 5 L 19 13 L 20 13 L 20 4 L 4 4 z "
+     id="rect3814" />
+  <path
+     inkscape:connector-curvature="0"
+     style="opacity:0.8;fill:#000000;fill-opacity:1;stroke:none"
+     d="m 16,14 0,1.9375 -1,0 0,4.0625 5,0 0,-4.0625 -1,0 L 19,14 16,14 z m 1,1 1,0 0,0.9375 -1,0 L 17,15 z"
+     id="path3835" />
+</svg>
