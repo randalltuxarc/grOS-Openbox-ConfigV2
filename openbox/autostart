@@ -1,0 +1,29 @@
+# grOS (GrombyangOS) Openbox Autostart Script
+# by randalltux < rndtx@gros-team.org >
+
+## run tint2 panel and notification area
+tint2 &
+
+## Set wallpaper
+nitrogen --restore &
+
+## Set keyboard settings - 250 ms delay and 25 cps (characters per second) repeat rate.
+## Adjust the values according to your preferances.
+xset r rate 250 25 & 
+
+## Detect and configure touchpad. See 'man synclient' for more info.
+if egrep -iq 'touchpad' /proc/bus/input/devices; then
+synclient VertEdgeScroll=1 &
+synclient TapButton1=1 &
+fi 
+
+## Set up pointer speed
+xset m 0 01 &
+xinput set-prop 'ETPS/2 Elantech Touchpad' 'Device Enabled' 0 &
+
+## Run daemon apps if u was installed
+thunar --daemon &
+urxvtd &
+
+## Run Compton
+compton -b &

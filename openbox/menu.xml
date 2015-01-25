@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/ file:///usr/X11R6/share/openbox/menu.xsd">
+	<menu id="root-menu" label="openbox3">
+		<separator label="grobyangOS Openbox"/>
+		<item label="Console">
+			<action name="Execute">
+				<execute>urxvt</execute>
+			</action>
+		</item>
+		<item label="Editor">
+			<action name="Execute">
+				<execute>leafpad</execute>
+			</action>
+		</item>
+		<item label="File Manager">
+			<action name="Execute">
+				<execute>thunar</execute>
+			</action>
+		</item>
+		<separator label="grOS Applications"/>
+		<menu id="Accesories" label="Accesories">
+			<item label="Archive Manager">
+				<action name="Execute">
+					<execute>file-roller</execute>
+				</action>
+			</item>
+			<item label="Galculator">
+				<action name="Execute">
+					<execute>galculator</execute>
+				</action>
+			</item>
+			<item label="Leafpad">
+				<action name="Execute">
+					<execute>leafpad</execute>
+				</action>
+			</item>
+			<item label="Root Terminal">
+				<action name="Execute">
+					<execute>gksu /usr/bin/x-terminal-emulator</execute>
+				</action>
+			</item>
+			<item label="LXTerminal">
+				<action name="Execute">
+					<execute>lxterminal</execute>
+				</action>
+			</item>
+			<item label="Screenshot">
+				<action name="Execute">
+					<execute>gnome-screenshot --interactive</execute>
+				</action>
+			</item>
+			<item label="Shortcut Editor">
+				<action name="Execute">
+					<execute>lxshortcut -i</execute>
+				</action>
+			</item>
+			<item label="Xarchiver">
+				<action name="Execute">
+					<execute>xarchiver</execute>
+				</action>
+			</item>
+			<item label="gedit">
+				<action name="Execute">
+					<execute>gedit</execute>
+				</action>
+			</item>
+			<item label="nitrogen">
+				<action name="Execute">
+					<execute>nitrogen</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Graphics" label="Graphics">
+			<item label="GIMP Image Editor">
+				<action name="Execute">
+					<execute>gimp-2.8</execute>
+				</action>
+			</item>
+			<item label="Image Viewer">
+				<action name="Execute">
+					<execute>gpicview</execute>
+				</action>
+			</item>
+			<item label="Inkscape">
+				<action name="Execute">
+					<execute>inkscape</execute>
+				</action>
+			</item>
+			<item label="Simple Scan">
+				<action name="Execute">
+					<execute>simple-scan</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Audio &amp; Video" label="Audio &amp; Video">
+			<item label="Brasero">
+				<action name="Execute">
+					<execute>brasero</execute>
+				</action>
+			</item>
+			<item label="Music Player">
+				<action name="Execute">
+					<execute>audacious</execute>
+				</action>
+			</item>
+			<item label="OpenShot Video Editor">
+				<action name="Execute">
+					<execute>openshot</execute>
+				</action>
+			</item>
+			<item label="SimpleScreenRecorder">
+				<action name="Execute">
+					<execute>simplescreenrecorder --logfile</execute>
+				</action>
+			</item>
+			<item label="SMPlayer">
+				<action name="Execute">
+					<execute>smplayer</execute>
+				</action>
+			</item>
+			<item label="VLC media player">
+				<action name="Execute">
+					<execute>/usr/bin/vlc --started-from-file</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Office" label="Office">
+			<item label="Document Viewer">
+				<action name="Execute">
+					<execute>evince</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Base">
+				<action name="Execute">
+					<execute>libreoffice --base</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Calc">
+				<action name="Execute">
+					<execute>libreoffice --calc</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Draw">
+				<action name="Execute">
+					<execute>libreoffice --draw</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Impress">
+				<action name="Execute">
+					<execute>libreoffice --impress</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Math">
+				<action name="Execute">
+					<execute>libreoffice --math</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Writer">
+				<action name="Execute">
+					<execute>libreoffice --writer</execute>
+				</action>
+			</item>
+			<item label="LibreOffice">
+				<action name="Execute">
+					<execute>libreoffice</execute>
+				</action>
+			</item>
+			<item label="Print Preview">
+				<action name="Execute">
+					<execute>evince-previewer</execute>
+				</action>
+			</item>
+			<item label="gKamus">
+				<action name="Execute">
+					<execute>gkamus</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Network" label="Network">
+			<item label="Google Chrome">
+				<action name="Execute">
+					<execute>google-chrome</execute>
+				</action>
+			</item>
+			<item label="Mozilla Firefox">
+				<action name="Execute">
+					<execute>firefox</execute>
+				</action>
+			</item>
+			<item label="Thunderbird Mail">
+				<action name="Execute">
+					<execute>thunderbird</execute>
+				</action>
+			</item>
+			<item label="Transmission">
+				<action name="Execute">
+					<execute>transmission-gtk</execute>
+				</action>
+			</item>
+			<item label="Web Browser">
+				<action name="Execute">
+					<execute>/usr/bin/x-www-browser</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Development" label="Development">
+			<item label="Python (v2.7)">
+				<action name="Execute">
+					<execute>xterm -e /usr/bin/python2.7</execute>
+				</action>
+			</item>
+			<item label="Python (v3.4)">
+				<action name="Execute">
+					<execute>xterm -e /usr/bin/python3.4</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Settings" label="Settings">
+			<item label="Customize Look and Feel">
+				<action name="Execute">
+					<execute>lxappearance</execute>
+				</action>
+			</item>
+			<item label="Desktop Preferences">
+				<action name="Execute">
+					<execute>pcmanfm --desktop-pref</execute>
+				</action>
+			</item>
+			<item label="Desktop Session Settings">
+				<action name="Execute">
+					<execute>lxsession-edit</execute>
+				</action>
+			</item>
+			<item label="Keyboard and Mouse">
+				<action name="Execute">
+					<execute>lxinput</execute>
+				</action>
+			</item>
+			<item label="Monitor Settings">
+				<action name="Execute">
+					<execute>lxrandr</execute>
+				</action>
+			</item>
+			<item label="Network Connections">
+				<action name="Execute">
+					<execute>nm-connection-editor</execute>
+				</action>
+			</item>
+			<item label="Openbox Configuration Manager">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="Preferred Applications">
+				<action name="Execute">
+					<execute>libfm-pref-apps</execute>
+				</action>
+			</item>
+			<item label="Screensaver">
+				<action name="Execute">
+					<execute>xscreensaver-demo</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="System Tools" label="System Tools">
+			<item label="BleachBit (as root)">
+				<action name="Execute">
+					<execute>su-to-root -X -c bleachbit</execute>
+				</action>
+			</item>
+			<item label="BleachBit">
+				<action name="Execute">
+					<execute>bleachbit</execute>
+				</action>
+			</item>
+			<item label="File Manager PCManFM">
+				<action name="Execute">
+					<execute>pcmanfm</execute>
+				</action>
+			</item>
+			<item label="GDebi Package Installer">
+				<action name="Execute">
+					<execute>gdebi-gtk</execute>
+				</action>
+			</item>
+			<item label="GParted">
+				<action name="Execute">
+					<execute>gparted-pkexec</execute>
+				</action>
+			</item>
+			<item label="LXTerminal">
+				<action name="Execute">
+					<execute>lxterminal</execute>
+				</action>
+			</item>
+			<item label="Startup Disk Creator">
+				<action name="Execute">
+					<execute>usb-creator-gtk</execute>
+				</action>
+			</item>
+			<item label="Synaptic Package Manager">
+				<action name="Execute">
+					<execute>synaptic-pkexec</execute>
+				</action>
+			</item>
+			<item label="Terminal emulator">
+				<action name="Execute">
+					<execute>/usr/bin/x-terminal-emulator</execute>
+				</action>
+			</item>
+			<item label="UXTerm">
+				<action name="Execute">
+					<execute>uxterm</execute>
+				</action>
+			</item>
+			<item label="XTerm">
+				<action name="Execute">
+					<execute>xterm</execute>
+				</action>
+			</item>
+			<item label="Y PPA Manager">
+				<action name="Execute">
+					<execute>y-pkexec</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="OpenBox Settings" label="OpenBox Settings">
+			<item label="Change GTK Themes">
+				<action name="Execute">
+					<execute>lxappearance</execute>
+				</action>
+			</item>
+			<item label="Change Openbox Themes">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="Change Wallpaper">
+				<action name="Execute">
+					<execute>nitrogen</execute>
+				</action>
+			</item>
+			<item label="Edit Menu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<separator label="grOS Obmenugen Settings"/>
+			<item label="Reconfigure Openbox">
+				<action name="Reconfigure"/>
+			</item>
+			<item label="Restart Openbox">
+				<action name="Restart">
+					<execute>xterm -e nano ~/.config/obmenugen/exclusions</execute>
+				</action>
+			</item>
+		</menu>
+		<separator label="grOS Logout"/>
+		<item label="Lock Screen">
+			<action name="Execute">
+				<execute>xscreensaver-command -lock</execute>
+			</action>
+		</item>
+		<item label="Bye....">
+			<action name="Execute">
+				<execute>ob-exit</execute>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>
